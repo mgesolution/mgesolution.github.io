@@ -2,7 +2,8 @@
    <body>
      <script>
        window.onload = function() {
-            window.location.replace("http://stackoverflow.com");
+            const token = urlParams.get('token');
+            window.location.replace("http://47.74.214.215:82/family_tree/verification?Token="+token+"&page=invalid");
         }
      </script>
    <body>

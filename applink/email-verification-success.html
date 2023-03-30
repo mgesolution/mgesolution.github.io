@@ -2,8 +2,11 @@
    <body>
      <script>
        window.onload = function() {
-            const token = urlParams.get('Token');
-            window.location.replace("Shttp://47.74.214.215:82/family_tree/verification?Token="+token+"&page=success");
+            const token = urlParams.get('token');
+            const userId = urlParams.get('user_id');
+            const nickname = urlParams.get('nickname');
+            const email = urlParams.get('email');
+            window.location.replace("http://47.74.214.215:82/family_tree/verification?Token="+token+"&page=success&user_id="+userId+"&email="+email+"&nickname="+nickname);
         }
      </script>
    <body>

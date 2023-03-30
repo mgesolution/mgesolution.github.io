@@ -2,10 +2,9 @@
    <body>
      <script>
        window.onload = function() {
-            const token = urlParams.get('Token');
             const userId = urlParams.get('user_id');
             const email = urlParams.get('email');
-            window.location.replace("http://47.74.214.215:82/family_tree/verification?Token="+token+"&page=form&user_id="+userId+"&email="+email);
+            window.location.replace("http://47.74.214.215:82/family_tree/verification?page=expired&user_id="+userId+"&email="+email);
         }
      </script>
    <body>

@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <script>
+        window.onload = function () {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+
+            const token = urlParams.get('Token');
+            window.location.replace("http://47.74.214.215:82/family_tree/api/invitation/status/?Token=" + token + "&page=expired");
+        }
+    </script>
+
+</body>
+<html>

@@ -1,0 +1,17 @@
+<html>
+
+<body>
+  <script>
+    window.onload = function () {
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+
+      const token = urlParams.get('token');
+      const userId = urlParams.get('user_id');
+      const email = urlParams.get('email');
+      window.location.replace("http://47.74.214.215:82/family_tree_dev/verification?Token=" + token + "&page=expired&user_id=" + userId + "&email=" + email);
+    }
+  </script>
+
+</body>
+<html>

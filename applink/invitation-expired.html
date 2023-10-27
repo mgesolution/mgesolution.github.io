@@ -9,7 +9,9 @@
             const invitation_id = urlParams.get('invitation_id');
             const invitation_token = urlParams.get('invitation_token');
             const email = urlParams.get('email');
-            window.location.replace("http://47.74.214.215:82/family_tree/api/invitation/status/?invitation_id=" + invitation_id + "&invitation_token=" + invitation_token + "&email=" + email + "&page=expired");
+            const name = urlParams.get('name');
+            const redirect_to_update_status = urlParams.get('redirect_to_update_status');
+            window.location.replace("http://47.74.214.215:82/family_tree/api/invitation/status/?invitation_id=" + invitation_id + "&invitation_token=" + invitation_token + "&email=" + email + "&name=" + name + "&redirect_to_update_status=" + redirect_to_update_status + "&page=expired");
         }
     </script>
 

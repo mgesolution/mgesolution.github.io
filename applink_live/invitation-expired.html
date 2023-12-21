@@ -1,0 +1,19 @@
+<html>
+
+<body>
+    <script>
+        window.onload = function () {
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+
+            const invitation_id = urlParams.get('invitation_id');
+            const invitation_token = urlParams.get('invitation_token');
+            const email = urlParams.get('email');
+            const name = urlParams.get('name');
+            const redirect_to_update_status = urlParams.get('redirect_to_update_status');
+            window.location.replace("http://101.0.4.71:3280/famtree_live/api/invitation/status/?invitation_id=" + invitation_id + "&invitation_token=" + invitation_token + "&email=" + email + "&name=" + name + "&redirect_to_update_status=" + redirect_to_update_status + "&page=expired");
+        }
+    </script>
+
+</body>
+<html>

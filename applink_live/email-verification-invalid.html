@@ -1,0 +1,15 @@
+<html>
+
+<body>
+  <script>
+    window.onload = function () {
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+
+      const token = urlParams.get('token');
+      window.location.replace("http://101.0.4.71:3280/famtree_live/verification?Token=" + token + "&page=invalid");
+    }
+  </script>
+
+</body>
+<html>

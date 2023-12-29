@@ -1,5 +1,5 @@
 
-
+[
     {
         "applinks": {
             "apps": [],
@@ -10,5 +10,17 @@
                 }
             ]
         }
+    },
+    {
+        "applinks": {
+            "apps": [],
+            "details": [
+                {
+                    "appID": "BFFGT7Z944.com.familytree.familytree.rc",
+                    "paths": [ "*" ]
+                }
+            ]
+        }
     }
+]
 

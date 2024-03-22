@@ -6,7 +6,7 @@
             "details": [
                 {
                     "appID": "BFFGT7Z944.com.familytree.familytree.dev",
-                    "paths": [ "*" ]
+                    "paths": [ "reset-password" ]
                 }
             ]
         }

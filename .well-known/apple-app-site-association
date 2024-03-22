@@ -1,6 +1,7 @@
 {
     "applinks": {
         "apps": [],
+        "defaults": { "percentEncoded": false },
         "details": [
         {
           "appID": "BFFGT7Z944.com.familytree.familytree.dev",

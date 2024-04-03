@@ -1,24 +1,18 @@
-[
-    {
-        "applinks": {
-            "apps": [],
-            "details": [
-                {
-                    "appID": "BFFGT7Z944.com.familytree.familytree.dev",
-                    "paths": [ "*" ]
-                }
-            ]
-        }
-    },
-    {
-        "applinks": {
-            "apps": [],
-            "details": [
-                {
-                    "appID": "BFFGT7Z944.com.familytree.familytree.rc",
-                    "paths": [ "*" ]
-                }
-            ]
-        }
-    }
-]
+{
+  "applinks": {
+    "apps": [
+      
+    ],
+    "details": [
+      {
+        "appID": [
+          "BFFGT7Z944.com.familytree.familytree.dev",
+          "BFFGT7Z944.com.familytree.familytree.rc"
+        ],
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}

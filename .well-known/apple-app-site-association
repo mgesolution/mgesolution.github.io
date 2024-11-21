@@ -14,7 +14,9 @@
                "BFFGT7Z944.com.familytree.familytree.live"
             ],
             "paths":[
-               "*"
+               "*",
+                "/applink_live/reset-password.html",
+                "/applink_live/*"
             ]
          }
       ]
